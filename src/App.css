@@ -12,7 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +34,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  /* background-color: black; */
+}
+
+.container{
+  margin: 0 auto;
+  background-color: blue;
+}
+
+.nav{
+  background-color: red;
+  position: absolute;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.nav li{
+  font-size: 100px;
+  background-color: orange;
+  display: inline-block;
+  padding-right: 10%;
+} 
+
+a:link{
+  text-decoration: none;
+}
+
+.gallery li{
+  display: inline-block;
+  float: left;
 }
